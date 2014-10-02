@@ -12,15 +12,8 @@ I changed best in place to just save every field on blur without having to click
 
 **Other Features**
 
-# Supports html_attrs as a hash in the 3rd element of the array, as used in options_for_select for example: Model.map { |cst| [cst.id,cst.name,{:class => cst.client_type_id}]}
+- Supports html_attrs as a hash in the 3rd element of the array, as used in options_for_select for example: Model.map { |cst| [cst.id,cst.name,{:class => cst.client_type_id}]}
 # Added an option to append something to the id, :id_append => model.id 
-
-
-**Todo**
-
-- Use a different gem? / make one?
-- Render the html on start via helper?
-- Feedback anyone?
 
 
 # A hacking of Best In Place
